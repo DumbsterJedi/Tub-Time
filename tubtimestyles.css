@@ -1,0 +1,357 @@
+body {
+    color: white;
+    background-color: #51adcf;
+    /* font-family: sans-serif; */
+}
+
+/* Navbar and title */
+.contain {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.icon {
+    height: 15px;
+}
+
+@media (max-width: 799px) {
+    .main-tub {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-tub-d {
+        display: none;
+    }
+    .title {
+        /* color: white; */
+        font-weight: bolder;
+        position: absolute;
+        text-shadow: 1px 1px 40px rgb(70, 123, 145);
+        -webkit-text-size-adjust: auto;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        padding: 25px 0 0 0;
+        font-size: 9vw;
+        text-align: center;
+    }
+    .mybut-location {
+        position: absolute;
+        display: inline-block;
+        left:  50%;
+        /* -webkit-transform: translateX(-50%); */
+        transform: translate(-52%, -30%);
+        top: 65%;   /*105px */
+    
+    }
+    .myButton {
+
+        box-shadow: 0px 7px 6px -9px #276873;
+        background-color: #408aa5;
+        border-radius: 8px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 13px 29px;
+        text-decoration: none;
+    
+    }
+}
+
+@media (min-width: 800px) {
+    .main-tub-d {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-tub {
+        display: none;
+    }
+    .title {
+        /* color: white; */
+        font-weight: 700;
+        position: absolute;
+        text-shadow: 1px 1px 80px rgb(70, 123, 145);
+        /* -webkit-text-stroke:1px rgb(109, 166, 204) ; */
+        /* -webkit-text-size-adjust: auto; */
+        /* width: auto; */
+        left: 13%;
+        /* margin: auto; */
+        right: 40%;
+        display: inline-block;
+        padding: 12% 0 0 0%;
+        font-size: 9vw;
+        text-align: left;
+    }
+
+    
+
+    .mybut-location {
+        position: absolute;
+        /* display: inline-block; */
+        left: 60%;
+        /* -webkit-transform: translate(-50%, 0); */
+        /* transform: translate(-53%, 0); */
+        top: 46%;
+    
+    }
+    .myButton {
+
+        box-shadow: 0px 7px 6px -9px #276873;
+        background-color: #408aa5;
+        border-radius: 8px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 3vw;
+        font-weight: bold;
+        padding: 5% 19px;
+        text-decoration: none;
+    
+    }
+}
+
+.myButton2 {
+
+    box-shadow: 0px 7px 6px -9px #276873;
+    background-color: #408aa5;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 19px 7px;
+    text-decoration: none;
+
+}
+.myButton2:hover {background-color:  #0b3138;}
+.myButton:hover {
+    background-color: #0b3138;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.myButton:active {
+    top: 1px;
+    text-decoration: none;
+}
+
+.title-holder{
+    position: relative;
+}
+
+/* details */
+@media (min-width: 650px){ 
+    .about {
+        color: rgba(255, 255, 255, 0.952);
+        padding: 20px 0 20px;
+        /* margin: 30px 0 30px; */
+        /* background-color: rgba(255, 255, 255, 0.178); */
+        /* border-radius: 3px; */
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }}
+
+    @media(max-width:650px){
+.about {
+    color: rgba(255, 255, 255, 0.952);
+    padding: 20px 5% 20px;
+    /* margin: 30px 0 30px; */
+    /* background-color: rgba(255, 255, 255, 0.178); */
+    /* border-radius: 3px; */
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}}
+.about-cont{margin: 30px 0;
+    background-color: rgba(255, 255, 255, 0.178);
+}
+.aboot-p {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.details {
+    /* color: white; */
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.det-pic {
+    /* display: block; */
+    width: 100%;
+
+}
+
+.boxp {
+    color: white;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5%;
+    background-color: rgba(70, 172, 255, 0.253);
+    border-radius: 2%;
+
+}
+
+
+
+.dp {
+    position: relative;
+    padding: 0 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Reviews */
+.arrow {
+    width: 10%;
+}
+
+.reviews {
+    /* color: white; */
+    text-align: center;
+    background-color: #0278ae;
+    border: 5px solid ;
+    border-color: rgba(82, 82, 82, 0.212);
+    margin: 50px 0 0 0;
+}
+
+.review-title {
+    padding: 40px 5% 25px;
+    /* margin: 50px 0 0 0; */
+    /* background-color: #0278ae; */
+}
+
+.carousel-item {
+    position: relative;
+    padding: 0 10%;
+    height: 230px;
+}
+.carousel-inner{padding: 30px 0 0;}
+.ch2 {
+    font-weight: 600;
+}
+
+.ch4 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.person {
+    display: inline-block;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.144);
+    border-radius: 3px;
+    margin: 15px auto 10px;
+    padding: 4px 10px 6px;
+}
+
+.scroller {
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.testimonial-image {
+    position: relative;
+    width: 25px;
+    /* padding: 25px 0 5px; */
+}
+
+.reviewer {
+    display: inline-block;
+    padding: 0 0 0 5px;
+    margin: 0;
+    transform: translateY(8%);
+}
+
+.testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 0;
+}
+
+/* closer */
+.do-it-h {
+    font-size: 1.8rem;
+}
+
+.get-in-the-heckin-tub-already {
+    /* color: white; */
+    text-align: center;
+    word-spacing: -.05rem;
+    padding: 50px 7%;
+
+}
+
+.p {
+    font-weight: 300;
+    line-height: 1.3rem;
+    margin-bottom: 25px;
+}
+
+/* footer */
+.footer {
+    /* color: white; */
+    background-color: #0278ae;
+    text-align: center;
+    padding: 30px 30px 10px;
+    font-weight: 300;
+}
+
+.copyright {
+    margin: 0;
+}
+
+.footer-soc {
+    padding-bottom: 10px;
+    word-spacing: 20px;
+
+}
+
+a {
+
+    color: rgb(193, 246, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+    transition: .3s;
+}
+@media (min-width: 800px) {
+
+    .boxp:hover {
+        background-color: rgba(16, 63, 100, 0.253);
+        color: rgb(224, 255, 255);
+        transition: .3s;
+    }
+}
